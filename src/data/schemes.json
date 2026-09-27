@@ -1,0 +1,595 @@
+[
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises",
+    "description": "Credit-linked subsidy programme for setting up new micro enterprises in the non-farm sector.",
+    "maxLoanLimit": 5000000,
+    "minLoanLimit": 10000,
+    "subsidyRates": {
+      "generalUrban": 15,
+      "generalRural": 25,
+      "specialUrban": 25,
+      "specialRural": 35
+    },
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD",
+        "Transgender",
+        "Ex-Servicemen"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading"
+      ],
+      "requiresNewEnterprise": true
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Category Certificate if applicable",
+      "Address Proof",
+      "Bank Account",
+      "Project Report"
+    ]
+  },
+  {
+    "id": "mudra",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "ministry": "Ministry of Finance",
+    "description": "Collateral-free institutional credit for micro enterprises and income-generating activities.",
+    "maxLoanLimit": 2000000,
+    "minLoanLimit": 10000,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD",
+        "Transgender"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Address Proof",
+      "Bank Account",
+      "Business or Project Details"
+    ]
+  },
+  {
+    "id": "stand_up_india",
+    "name": "Stand-Up India",
+    "ministry": "Ministry of Finance",
+    "description": "Institutional credit support for eligible SC/ST and women entrepreneurs establishing greenfield enterprises.",
+    "maxLoanLimit": 10000000,
+    "minLoanLimit": 100000,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ],
+      "requiresNewEnterprise": true
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Category Certificate if applicable",
+      "Address Proof",
+      "Business Plan",
+      "Bank Documents"
+    ]
+  },
+  {
+    "id": "pm_daksh",
+    "name": "PM-DAKSH Yojana",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Skill development and entrepreneurship-oriented training for identified disadvantaged groups.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 45,
+      "allowedCategories": [
+        "SC",
+        "OBC",
+        "EWS",
+        "DNT",
+        "Safai Karamchari"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Category or Group Certificate if applicable",
+      "Income Certificate where applicable"
+    ]
+  },
+  {
+    "id": "national_sc_st_hub",
+    "name": "National SC-ST Hub",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises",
+    "description": "Support ecosystem for SC/ST entrepreneurs including capacity building, market access and business development assistance.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "PAN Card",
+      "SC/ST Certificate",
+      "Udyam Registration where applicable",
+      "Business Details"
+    ]
+  },
+  {
+    "id": "pmfme",
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "ministry": "Ministry of Food Processing Industries",
+    "description": "Support for formalisation and upgradation of micro food processing enterprises.",
+    "maxLoanLimit": 1000000,
+    "minLoanLimit": 10000,
+    "subsidyRates": {
+      "creditLinkedCapitalSubsidy": 35
+    },
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD"
+      ],
+      "allowedSectors": [
+        "Food Processing",
+        "Manufacturing"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account",
+      "Business Details",
+      "Food Processing Enterprise Details",
+      "Project Report"
+    ]
+  },
+  {
+    "id": "pm_vishwakarma",
+    "name": "PM Vishwakarma",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises",
+    "description": "End-to-end support for artisans and craftspeople working in specified traditional trades.",
+    "maxLoanLimit": 300000,
+    "minLoanLimit": 100000,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD"
+      ],
+      "allowedSectors": [
+        "Artisan",
+        "Manufacturing",
+        "Services"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Mobile Number",
+      "Bank Account",
+      "Trade or Artisan Details"
+    ]
+  },
+  {
+    "id": "pm_svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "description": "Working-capital support for eligible street vendors.",
+    "maxLoanLimit": 50000,
+    "minLoanLimit": 5000,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD",
+        "Transgender"
+      ],
+      "allowedSectors": [
+        "Trading",
+        "Services"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Street Vendor Identification or Certificate where applicable",
+      "Bank Account",
+      "Mobile Number"
+    ]
+  },
+  {
+    "id": "asiim",
+    "name": "Ambedkar Social Innovation and Incubation Mission (ASIIM)",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Incubation and support for innovative entrepreneurship among eligible SC youth through technology business ideas.",
+    "maxLoanLimit": 1500000,
+    "minLoanLimit": 100000,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC"
+      ],
+      "allowedSectors": [
+        "Technology",
+        "Services",
+        "Manufacturing"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "SC Certificate",
+      "Business Idea",
+      "Startup or Enterprise Details",
+      "Bank Account"
+    ]
+  },
+  {
+    "id": "vcf_sc",
+    "name": "Venture Capital Fund for Scheduled Castes (VCF-SC)",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Equity-oriented financial support intended to encourage entrepreneurship among eligible SC entrepreneurs.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Technology",
+        "Trading"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "SC Certificate",
+      "Business Plan",
+      "Company or Enterprise Documents",
+      "Financial Projections"
+    ]
+  },
+  {
+    "id": "ce_schemes_sc",
+    "name": "Credit Enhancement Guarantee Scheme for Scheduled Castes",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Credit enhancement support intended to facilitate access to institutional finance for eligible SC entrepreneurs.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "SC Certificate",
+      "PAN Card",
+      "Business Documents",
+      "Bank Documents"
+    ]
+  },
+  {
+    "id": "nsfdc_self_employment",
+    "name": "NSFDC Self Employment / Term Loan Support",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance through the National Scheduled Castes Finance and Development Corporation for eligible SC beneficiaries undertaking income-generating activities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "SC Certificate",
+      "Income Certificate where applicable",
+      "Bank Account",
+      "Project Proposal"
+    ]
+  },
+  {
+    "id": "nbcfdc_loan",
+    "name": "NBCFDC Individual Loan Support",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance for eligible beneficiaries belonging to backward classes for income-generating activities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "OBC",
+        "EBC"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "OBC/EBC Certificate",
+      "Income Certificate",
+      "Bank Account",
+      "Project Proposal"
+    ]
+  },
+  {
+    "id": "nstfdc_term_loan",
+    "name": "NSTFDC Term Loan Scheme",
+    "ministry": "Ministry of Tribal Affairs",
+    "description": "Financial assistance for eligible Scheduled Tribe beneficiaries to undertake viable income-generating activities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "ST"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "ST Certificate",
+      "Income Certificate where applicable",
+      "Bank Account",
+      "Project Proposal"
+    ]
+  },
+  {
+    "id": "ndfdc_swavalamban",
+    "name": "NDFDC Divyangjan Swavalamban Yojana",
+    "ministry": "Department of Empowerment of Persons with Disabilities",
+    "description": "Financial assistance for eligible persons with disabilities for self-employment and income-generating activities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "PwD"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Disability Certificate or UDID",
+      "Bank Account",
+      "Income Certificate where applicable",
+      "Project Proposal"
+    ]
+  },
+  {
+    "id": "nskfdc_self_employment",
+    "name": "NSKFDC Self Employment Support",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Financial assistance and livelihood-oriented support for eligible Safai Karamcharis and related target groups.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "Safai Karamchari"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Identity or Eligibility Certificate",
+      "Bank Account",
+      "Business Proposal"
+    ]
+  },
+  {
+    "id": "seed_dnt",
+    "name": "SEED - Scheme for Economic Empowerment of DNTs",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Support framework for the economic empowerment of De-notified, Nomadic and Semi-Nomadic communities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "DNT"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "DNT Certificate or Valid Proof",
+      "Bank Account",
+      "Income Certificate where applicable",
+      "Business Details"
+    ]
+  },
+  {
+    "id": "pm_ajay",
+    "name": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY)",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Scheme supporting socio-economic development and livelihood opportunities for Scheduled Caste communities.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "SC"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Agriculture-Allied"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "SC Certificate",
+      "Address Proof",
+      "Bank Account",
+      "Project or Livelihood Details"
+    ]
+  },
+  {
+    "id": "smile",
+    "name": "SMILE - Support for Marginalized Individuals for Livelihood and Enterprise",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Support framework addressing livelihood and rehabilitation needs of identified marginalized groups.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "Transgender",
+        "Safai Karamchari"
+      ],
+      "allowedSectors": [
+        "Services",
+        "Trading",
+        "Manufacturing"
+      ]
+    },
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Identity or Eligibility Proof",
+      "Bank Account",
+      "Livelihood or Enterprise Details"
+    ]
+  },
+  {
+    "id": "cgtmse",
+    "name": "Credit Guarantee Scheme through CGTMSE",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises",
+    "description": "Credit guarantee support that helps eligible micro and small enterprises access institutional credit without conventional collateral requirements in applicable cases.",
+    "maxLoanLimit": 0,
+    "minLoanLimit": 0,
+    "subsidyRates": null,
+    "eligibility": {
+      "minAge": 18,
+      "allowedCategories": [
+        "General",
+        "SC",
+        "ST",
+        "OBC",
+        "Minority",
+        "PwD",
+        "Transgender"
+      ],
+      "allowedSectors": [
+        "Manufacturing",
+        "Services",
+        "Trading"
+      ]
+    },
+    "documentsRequired": [
+      "PAN Card",
+      "Aadhaar Card",
+      "Udyam Registration where applicable",
+      "Business Documents",
+      "Bank Documents",
+      "Project Report"
+    ]
+  }
+]
